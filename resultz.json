@@ -1,13 +1,13 @@
 {
-  "stats": "5 passed, 6 failed out of 11",
+  "stats": "11 passed, 0 failed out of 11",
   "tests": [
     {
       "name": "Favorileri Gizle butonu tıklandığında favori panelini gizliyor mu?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "Favorileri Gizle butonu metni, ilgili durum değerline göre 'Favorileri göster' ve 'Favorileri gizle' arasında değişiyor mu?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "Tüm filmler ekranda gösteriliyor mu?",
@@ -19,15 +19,15 @@
     },
     {
       "name": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor mu?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "Favorilerden çıkar butonu filmi favori listesinden çıkarıyor mu?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine 2. kez eklemiyor mu?",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "Sil butonu filmi siliyor ve tüm filmler sayfasına yönlendiriliyor mu?",
@@ -43,7 +43,7 @@
     },
     {
       "name": "store.js dosyasında redux-logger kullanılmış mı?",
-      "state": "fail"
+      "state": "pass"
     }
   ]
 }
