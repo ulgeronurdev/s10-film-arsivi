@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const FavoriteMovieList = (props) => {
-  const favorites = [];
+  const favorites = useSelector((state) => state.favorites);
 
   return (
     <div className="flex-1 sm:max-w-[250px] p-5 pr-5 bg-white shadow rounded-md">

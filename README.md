@@ -15,25 +15,25 @@ günün sonunda tüm testler geçecektir.
 
 Kütüphaneler npm install ile kuruldu. Store oluştur ve tüm uygulamadan erişilebilir hale getir.
 
-- `store/reducer.js` dosyasında, reducer fonksiyonundali state parametresinin varsayılan değerini `initialState` olarak ayarla.
+- `store/reducer.js` dosyasında, reducer fonksiyonundali state parametresinin varsayılan değerini `initialState` olarak ayarla. // yapıldı
 
 `store/store.js` dosyasında:
 
 - `reducer.js` dosyasındaki `reducer` fonksiyonunu import et.
 - redux paketinden `legacy_createStore` metodunu `createStore` adıyla import et.
-- Bu ikisini kullanarak bir store yarat ve `myStore` değişkenine eşitle. (myStore adını ve exportunu değiştirme.)
+- Bu ikisini kullanarak bir store yarat ve `myStore` değişkenine eşitle. (myStore adını ve exportunu değiştirme.) // yapıldı
 
 `main.jsx` dosyasında:
 
 - `react-redux` paketinden `Provider` componentını import et.
 - `myStore` değerini import et.
-- Bu ikisini `BrowserRouter`'ı saracak şekilde kullan.
+- Bu ikisini `BrowserRouter`'ı saracak şekilde kullan. //yapıldı
 
 ### 2. Film reducerını bağla
 
 - **MovieList componenti, tüm filmleri ekrana yazdırmalı.** Boş array olarak tanımlanmış `movies` değişkeninin asıl değerini `useSelector` ile storedan al.
 - **Movie componentinin çalışması için film listemize erişmesi gerekir.** Boş array olarak tanımlanmış `movies` değişkeninin gerçek değerini yine `useSelector` ile storedan al.
-- **MovieHeader, başlık metnini görüntülemek için appTitle'ı kullanır.** Bu componentde `appTitle` değerini yine `useSelector` ile storedan al.
+- **MovieHeader, başlık metnini görüntülemek için appTitle'ı kullanır.** Bu componentde `appTitle` değerini yine `useSelector` ile storedan al. // yapıldı
 
 ### 3. Sil ve Film Ekle actionlarını bağla
 
